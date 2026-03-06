@@ -1,0 +1,16 @@
+{
+  "name": "semvercheck",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "bun run --hot src/index.tsx",
+    "start": "bun run src/index.tsx"
+  },
+  "dependencies": {
+    "hono": "^4.7.0",
+    "semver": "^7.7.1"
+  },
+  "devDependencies": {
+    "@types/semver": "^7.5.8",
+    "bun-types": "latest"
+  }
+}
